@@ -13,7 +13,7 @@ body {
 
 h1 {
   margin-bottom: 1;
-  font-size: 4rem;
+  font-size: 2.7rem;
 }
 
 h2 {
@@ -28,27 +28,53 @@ a:visited {
   color: #9d65f7;
 }
 
-#main {
-  margin: 35px 10px;
-  padding: 20px;
-  border-radius: 5px;
-  background: rgb(236, 220, 220);
+#title {
+  font-size: 3.5rem;
+  line-height: 1.2;
 }
 
+#main {
+  margin: 25px 5px;
+  padding: 20px;
+  border-radius: 5px;
+  background: rgb(224, 224, 224);
+}
+
+#tribute-info {
+  margin: 0%;
+  padding: 0%;
+}
 img {
-  max-width: 50%;
+  max-width: 100%;
   display: block;
   height: auto;
   margin: 0 auto;
 }
 
 #img-div {
-  background: rgb(7, 7, 7);
+  background: rgb(209, 209, 209);
   padding: 10px;
   margin: 5;
 }
 
 #img-caption {
-  margin: 20px 0 7px 0;
-  font-size: 1.8rem;
+  margin: 16px 0 6px 0;
+  font-size: 1.6rem;
+}
+
+#caption {
+  font-style: italic;
+  font-weight: bold;
+}
+p {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 30px auto;
+  text-align: justify;
+}
+
+h5 {
+  font-style: italic;
+  margin: 0 auto 50px auto;
+  text-align: center;
 }
